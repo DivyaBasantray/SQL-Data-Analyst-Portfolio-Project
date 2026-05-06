@@ -56,6 +56,7 @@ product_aggregations AS (
 /*---------------------------------------------------------------------------
 2) Product Aggregations: Summarizes key metrics at the product level
 ---------------------------------------------------------------------------*/
+	
 SELECT
     product_key,
     product_name,
