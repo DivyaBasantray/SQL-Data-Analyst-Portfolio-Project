@@ -25,6 +25,7 @@ END;
 GO
 
 -- Create the 'DataWarehouseAnalytics' database
+	
 CREATE DATABASE DataWarehouseAnalytics;
 GO
 
