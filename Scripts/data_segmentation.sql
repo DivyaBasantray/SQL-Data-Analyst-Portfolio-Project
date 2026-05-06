@@ -41,6 +41,7 @@ ORDER BY total_products DESC;
 	- New: Customers with a lifespan less than 12 months.
 And find the total number of customers by each group
 */
+
 WITH customer_spending AS (
     SELECT
         c.customer_key,
