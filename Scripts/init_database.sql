@@ -16,6 +16,7 @@ USE master;
 GO
 
 -- Drop and recreate the 'DataWarehouseAnalytics' database
+	
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouseAnalytics')
 BEGIN
     ALTER DATABASE DataWarehouseAnalytics SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
