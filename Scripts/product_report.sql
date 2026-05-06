@@ -111,6 +111,7 @@ SELECT
 	END AS avg_order_revenue,
 
 	-- Average Monthly Revenue
+	
 	CASE
 		WHEN lifespan = 0 THEN total_sales
 		ELSE total_sales / lifespan
